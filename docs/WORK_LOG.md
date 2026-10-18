@@ -4,3 +4,4 @@
 |---|---|---|---|---|---|
 
 - [x] Ngay 3: Da hoan thanh kiem ke file 84.csv (53,772 dong, 86 cot, 2 gia tri NULL).
+- [x] Ngày 4: Xác minh schema thực tế (time_stamp, asset_id, status_type_id), đồng bộ project.yaml và ghi nhận cơ chế nhãn khoảng thời gian từ event_info.csv.
