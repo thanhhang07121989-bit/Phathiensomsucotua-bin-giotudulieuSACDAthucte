@@ -24,3 +24,7 @@ alert:
   consecutive_points: 3
   cooldown_points: 6
   note: "Các ngưỡng trên là giá trị khởi đầu để thử nghiệm, không phải thông số vận hành an toàn."
+data_schema:
+  time_column: "time_stamp"
+  id_column: "asset_id"
+  status_column: "status_type_id"
