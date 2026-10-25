@@ -30,7 +30,7 @@ Không dùng timestamp, asset ID, status ID, row ID hoặc thông tin nhãn làm
 - **Asset ID & Tan suat**: File 84 thuoc asset_id = 13. Tan suat ghi 10 phut/ban ghi, chuoi thoi gian da duoc sap xep, khong trung timestamp.
 - **Khoang trong thoi gian (Gap)**: Phat hien 1 khoảng trong 3h50m (mat ~22 ban ghi) -> Can luu y khi tao cua so trut (sliding window) o Ngay 7-8.
 - **Ma trang thai (status_type_id)**: File 84 chua cac ma [0, 4, 5]; File 0 chua [0, 3, 5]. Can doi chieu README de ghi dung y nghia nghiep vu cua tung ma.
-- **Cong suat (power_29_avg, power_30_avg)**: Gia tri nam trong [0, 0.98] -> Da duoc chuan hoa (Normalized [0, 1]), khong phai kW thieu chuan hoa.
+- **Cong suat (power_29_avg, power_30_avg)**: Gia tri nam trong [0, 0.98] -> Đã được chuẩn hóa (Normalized [0, 1]), khong phai kW thieu chuan hoa.
 - **Goc quay (sensor_1_avg, sensor_2_avg, sensor_42_avg)**: Gia tri goc co tinh chat chu ky (0 - 360 do / -177 den 180 do). Can ma hoa Sin/Cos hoac loai bo o Ngay 8.
 - **Cot hang so (sensor_46, sensor_49)**: Mang gia tri khong doi trong tap sample 35 ngay. Giu nguyen, se quyet dinh loai bo o Ngay 8 tren toan bo tap Train.
 - **Chat luong tong the**: Khong phat hien gia tri di biet kieu -9999.
