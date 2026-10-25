@@ -15,3 +15,5 @@
 - Tan suat ghi nhan (Mode): 0 days 00:10:00
 - So cot hang so (nunique <= 1): 4 cot ['asset_id', 'train_test', 'sensor_46', 'sensor_49']
 - Bieu do chuoi thoi gian: reports/figures/eda_sample_84.png
+
+- Ngay 5: sample_84.csv, 5000 dong, tan suat 10 min, trung thoi gian 0, cot hang [], cot thieu >30% [], asset_id [13]. Bang audit: reports/tables/audit_sample_84.csv; hinh: reports/figures/eda_sample_84.png
