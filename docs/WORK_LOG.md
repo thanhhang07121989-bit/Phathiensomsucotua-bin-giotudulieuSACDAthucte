@@ -5,7 +5,7 @@
 
 - [x] Ngay 3: Da hoan thanh kiem ke file 84.csv (53,772 dong, 86 cot, 2 gia tri NULL).
 - [x] Ngày 4: Xác minh schema thực tế (time_stamp, asset_id, status_type_id), đồng bộ project.yaml và ghi nhận cơ chế nhãn khoảng thời gian từ event_info.csv.
-- [x] Ngay 5: Tao tap mau data/sample/sample_84.csv (5,000 dong), chay kiem tra integrity va ve bieu do EDA reports/figures/eda_sample_84.png.
+
 
 
 ### Chi tiet kiem dinh du lieu mau Ngay 5 (sample_84.csv)
@@ -16,4 +16,5 @@
 - So cot hang so (nunique <= 1): 4 cot ['asset_id', 'train_test', 'sensor_46', 'sensor_49']
 - Bieu do chuoi thoi gian: reports/figures/eda_sample_84.png
 
-- Ngay 5: sample_84.csv, 5000 dong, tan suat 10 min, trung thoi gian 0, cot hang [], cot thieu >30% [], asset_id [13]. Bang audit: reports/tables/audit_sample_84.csv; hinh: reports/figures/eda_sample_84.png
+
+- Ngay 4: Da chay check_day4.py (Wind Farm A: 22 file, 5 tuabin; 84.csv 53772 dong, id 0..53771), xac minh nhan chi la khoang trong event_info, doi chieu bang id, cap nhat DATA_DICTIONARY.md va project.yaml.
