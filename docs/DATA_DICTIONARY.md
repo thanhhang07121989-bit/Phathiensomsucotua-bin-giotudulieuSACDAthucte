@@ -1,4 +1,3 @@
-# Data dictionary (điền sau khi kiểm tra dataset)
 
 ## Nguyên tắc
 Không tự đặt tên cột. Hãy ghi chính xác tên cột xuất hiện trong file thực tế, đơn vị, kiểu dữ liệu, ý nghĩa và tỷ lệ thiếu.
@@ -48,3 +47,12 @@ Không tự đặt tên cột. Hãy ghi chính xác tên cột xuất hiện tro
 - **Góc quay (sensor_1_avg, sensor_2_avg, sensor_42_avg)**: Giá trị góc có tính chất chu kỳ (0 - 360 độ). Cần mã hóa Sin/Cos hoặc xem xét loại bỏ ở Ngày 8.
 - **Cột hằng số (sensor_46, sensor_49)**: Mang giá trị không đổi trong file 84.csv (`asset_id`, `sensor_46`, `sensor_49`). Giữ nguyên, sẽ quyết định loại bỏ ở Ngày 8 trên toàn bộ tập Train.
 - **Độ tin cậy chỉ số thống kê (Cảnh báo Zenodo)**: Chỉ các cột trung bình `_avg` là đủ độ tin cậy để dùng làm đặc trưng. Các cột `_min`, `_max`, `_std` có nhiều giá trị phi vật lý.
+
+### Ghi ch� ki?m �?nh & ti?n x? l? Ng�y 6 (Clean Sample 84)
+* K�ch th�?c ban �?u: 5,000 d?ng x 86 c?t.
+* T? l? thi?u d? li?u (Null): 0.0% tr�n t?t c? 86 c?t.
+* Ki?m tra tr�ng l?p: 0 d?ng tr�ng kh�a (asset_id, id) v� 0 d?ng tr�ng (asset_id, time_stamp).
+* Chu?i th?i gian: Kh?p 100%, s?p x?p t�ng d?n t? 2022-09-02 15:30:00 �?n 2022-10-07 12:20:00.
+* C?t h?ng s? �? lo?i b? (x�t ch?ng r? r? tr�n Train): sensor_46, sensor_49.
+* K�ch th�?c d? li?u s?ch: 5,000 d?ng x 85 c?t.
+* L�u tr? �?u ra: data/processed/clean_sample_84.parquet k�m t?p log preprocess_log_sample_84.json.

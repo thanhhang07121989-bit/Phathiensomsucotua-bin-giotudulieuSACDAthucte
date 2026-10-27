@@ -18,3 +18,5 @@
 
 
 - Ngay 4: Da chay check_day4.py (Wind Farm A: 22 file, 5 tuabin; 84.csv 53772 dong, id 0..53771), xac minh nhan chi la khoang trong event_info, doi chieu bang id, cap nhat DATA_DICTIONARY.md va project.yaml.
+
+- Ngay 6: Hoan thanh inspect_data.py va preprocess.py (5000 dong, 0% null, loai 2 cot hang sensor_46 va sensor_49 tren Train, sort thoi gian, xuat clean_sample_84.parquet 85 cot va log JSON). Cap nhat DATA_DICTIONARY.md va .gitignore.
